@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+	<simulation max_x="15.0" max_y="10.0" min_x="-15.0" min_y="-10.0">
+
+            <cameras>
+                  <zoom> 2.5 5.0 7.5 </zoom>
+		    	
+                  <!-- <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_01" range="0.0" viewing_angle="360.0" x="-5.0" y="10.0" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/> -->
+
+                  <!-- <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_02" range="0.0" viewing_angle="360.0" x="5.0" y="10.0" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/> -->
+
+                  <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_03" range="0.0" viewing_angle="360.0" x="-10.0" y="6.7" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+      		
+                  <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_04" range="0.0" viewing_angle="360.0" x="0.0" y="6.7" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+
+                  <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_05" range="0.0" viewing_angle="360.0" x="10.0" y="6.7" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+      			
+                  <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_06" range="0.0" viewing_angle="360.0" x="-5.0" y="3.3" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+
+                  <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_07" range="0.0" viewing_angle="360.0" x="5.0" y="3.3" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+
+                  <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_08" range="0.0" viewing_angle="360.0" x="-10.0" y="0.0" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+
+                  <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_09" range="0.0" viewing_angle="360.0" x="0.0" y="0.0" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+
+                  <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_10" range="0.0" viewing_angle="360.0" x="10.0" y="0.0" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+
+                  <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_11" range="0.0" viewing_angle="360.0" x="-5.0" y="-3.3" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+
+                  <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_12" range="0.0" viewing_angle="360.0" x="5.0" y="-3.3" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+
+                  <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_13" range="0.0" viewing_angle="360.0" x="-10.0" y="-6.7" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+
+                  <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_14" range="0.0" viewing_angle="360.0" x="0.0" y="-6.7" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+
+                  <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_15" range="0.0" viewing_angle="360.0" x="10.0" y="-6.7" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+       
+                  <!-- <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_16" range="0.0" viewing_angle="360.0" x="-5.0" y="-10.0" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/> -->
+
+                  <!-- <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_17" range="0.0" viewing_angle="360.0" x="5.0" y="-10.0" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/> -->
+		</cameras>
+
+        <objects>
+<!-- 			<object features="1.0" heading="0.0" speed="1.0" x="0.3" y="1.2"/>
+			<object features="2.0" heading="0.0" speed="1.0" x="1.5" y="0.0"/>
+			<object features="3.0" heading="0.0" speed="1.0" x="-1.9" y="-0.3"/>
+ -->			
+        </objects>
+
+            <events>
+                <event timestep="0" participant="object" name="4.0" event="add" heading="90.0" speed="1.0" x="-10.0" y="-3.0">
+                  <waypoint x="-7.0" y="-3.0"/>
+                  <waypoint x="-3.0" y="-3.0"/>
+                  <waypoint x="-3.0" y="-7.0"/>
+                  <waypoint x="3.0" y="-7.0"/>
+                  <waypoint x="3.0" y="-3.0"/>
+                  <waypoint x="7.0" y="-3.0"/>
+                  <waypoint x="7.0" y="3.0"/>
+                  <waypoint x="3.0" y="3.0"/>
+                  <waypoint x="3.0" y="7.0"/>
+                  <waypoint x="-3.0" y="7.0"/>
+                  <waypoint x="-3.0" y="3.0"/>
+                  <waypoint x="-7.0" y="3.0"/>
+                </event>
+
+                <event timestep="0" participant="object" name="5.0" event="add" heading="90.0" speed="1.0" x="-10.0" y="-3.0">
+                  <waypoint x="3.0" y="-3.0"/>
+                  <waypoint x="7.0" y="-3.0"/>
+                  <waypoint x="7.0" y="3.0"/>
+                  <waypoint x="3.0" y="3.0"/>
+                  <waypoint x="3.0" y="7.0"/>
+                  <waypoint x="-3.0" y="7.0"/>
+                  <waypoint x="-3.0" y="3.0"/>
+                  <waypoint x="-7.0" y="3.0"/>
+                  <waypoint x="-7.0" y="-3.0"/>
+                  <waypoint x="-3.0" y="-3.0"/>
+                  <waypoint x="-3.0" y="-7.0"/>
+                  <waypoint x="3.0" y="-7.0"/>
+                </event>
+
+                <event timestep="0" participant="object" name="6.0" event="add" heading="90.0" speed="1.0" x="-10.0" y="-3.0">
+                  <waypoint x="3.0" y="7.0"/>
+                  <waypoint x="-3.0" y="7.0"/>
+                  <waypoint x="-3.0" y="3.0"/>
+                  <waypoint x="-7.0" y="3.0"/>
+                  <waypoint x="-7.0" y="-3.0"/>
+                  <waypoint x="-3.0" y="-3.0"/>
+                  <waypoint x="-3.0" y="-7.0"/>
+                  <waypoint x="3.0" y="-7.0"/>
+                  <waypoint x="3.0" y="-3.0"/>
+                  <waypoint x="7.0" y="-3.0"/>
+                  <waypoint x="7.0" y="3.0"/>
+                  <waypoint x="3.0" y="3.0"/>
+                </event>
+            </events>
+
+   </simulation>
+</root>

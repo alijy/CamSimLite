@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+	<simulation max_x="15.0" max_y="10.0" min_x="-15.0" min_y="-10.0">
+
+		<cameras>
+			<zoom> 2.5 5.0 7.5 </zoom>
+
+			<camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_1" range="3.0" viewing_angle="360.0" x="12" y="-9.6" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+			<camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_2" range="3.0" viewing_angle="360.0" x="-7.7" y="-5.4" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+			<camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_3" range="3.0" viewing_angle="360.0" x="-12.6" y="-4.7" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+			<camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_4" range="3.0" viewing_angle="360.0" x="-12.9" y="-8.8" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+			<camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_5" range="3.0" viewing_angle="360.0" x="1.5" y="-6.5" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+			<camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_6" range="3.0" viewing_angle="360.0" x="-3.4" y="-4.2" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+			<camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_7" range="3.0" viewing_angle="360.0" x="-13.5" y="-9.8" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+			<camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_8" range="3.0" viewing_angle="360.0" x="-10.9" y="-2" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+			<camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_9" range="3.0" viewing_angle="360.0" x="4.6" y="-1.9" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+			<camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_10" range="3.0" viewing_angle="360.0" x="9" y="-7.2" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+			<camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_11" range="3.0" viewing_angle="360.0" x="0.3" y="1.8" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+			<camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_12" range="3.0" viewing_angle="360.0" x="-6.4" y="-1.6" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+			<camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_13" range="3.0" viewing_angle="360.0" x="-13.8" y="-1.1" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+		</cameras>
+
+		<objects>
+			<object features="1.0" heading="5.5" speed="1.0" x="-8.5" y="-3.3"/>
+			<object features="2.0" heading="0.2" speed="1.0" x="0.2" y="-2.9"/>
+			<object features="3.0" heading="4.6" speed="1.0" x="-9" y="-5.7"/>
+		</objects>
+
+	</simulation>
+</root>

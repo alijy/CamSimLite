@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+	<simulation max_x="15.0" max_y="15.0" min_x="-15.0" min_y="-15.0">
+
+        <cameras>
+			<zoom> 2.5 5.0 7.5 10.0</zoom>
+			
+            <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_01" range="0.0" viewing_angle="360.0" x="0.0" y="0.0" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+		
+            <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_02" range="0.0" viewing_angle="360.0" x="0.0" y="10.0" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+
+            <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_03" range="0.0" viewing_angle="360.0" x="7.0" y="6.0" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+			
+            <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_04" range="0.0" viewing_angle="360.0" x="7.0" y="-6.0" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+
+            <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_05" range="0.0" viewing_angle="360.0" x="0.0" y="-10.0" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+
+            <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_06" range="0.0" viewing_angle="360.0" x="-7.0" y="-6.0" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+
+            <camera ai_algorithm="epics.ai.auctionSchedules.PassiveAuctionSchedule" heading="-180.0" name="Cam_07" range="0.0" viewing_angle="360.0" x="-7.0" y="6.0" comm="0" min_zoom="2.5" max_zoom="7.5" zoom_steps="2"/>
+
+		</cameras>
+
+        <objects>
+			<object features="1.0" heading="-90.0" speed="1.0" x="11.2" y="-0.3"/>
+			<object features="2.0" heading="45.0" speed="1.0" x="-10.0" y="-1.5"/>
+			<object features="3.0" heading="20.0" speed="1.0" x="0.3" y="-11.9"/>
+			
+        </objects>
+
+    </simulation>
+</root>
